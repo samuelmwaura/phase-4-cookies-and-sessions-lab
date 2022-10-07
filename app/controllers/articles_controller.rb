@@ -25,3 +25,8 @@ class ArticlesController < ApplicationController
   end
 
 end
+
+#Cookies are stored in the user's browser and are used to excahange data from the user to the server.
+#Google servers authenticates a user once whenever they visit any site within their domain. They then generate 
+#a cookie for the user's browser with their authentication information. This is the reason why a user gets to gmail, youtube, 
+#meet and slides and finds that they are already authenticated.
